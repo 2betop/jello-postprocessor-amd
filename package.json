@@ -1,6 +1,6 @@
 {
   "name": "jello-postprocessor-amd",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "jello-postprocessor-amd =======================",
   "main": "index.js",
   "scripts": {
@@ -23,6 +23,6 @@
   "homepage": "https://github.com/2betop/jello-postprocessor-amd",
   "dependencies": {
     "fis-postprocessor-amd": "^0.1.0",
-    "fis-velocity-label-parser": "0.0.4"
+    "fis-velocity-label-parser": "~0.0.5"
   }
 }
