@@ -10,7 +10,7 @@ base.parseHtml = (function(older) {
         fis.util.map(ret, function(k, v){
             if(v.start_label == '#script'){
                 var js_before = content.substring(v.content_start_index, v.content_end_index);
-                var m = /^\(.*?\)\n/.exec(js_before);
+                var m = /^\s*\(.*?\)\n/.exec(js_before);
 
                 if (m) {
                     js_before = js_before.substring(m[0].length);
